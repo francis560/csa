@@ -10,7 +10,7 @@ export default function Index () {
   return (
     <div>
 
-      <Hero />
+      <Hero data="Colegio Santa Ana" />
 
       <div className="px-20 py-28">
 

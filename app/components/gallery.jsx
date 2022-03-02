@@ -5,7 +5,7 @@ export const Gallery = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 <div className="text-center">
-                    <h2 class="mt-2 text-3xl leading-8 font-medium tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-cyan-400 sm:text-4xl">Gallería</h2>
+                    <h2 class="mt-2 text-3xl leading-8 font-medium tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-cyan-400 sm:text-4xl">Galería</h2>
                 </div>
 
                 <div class="gallery-content mt-10">

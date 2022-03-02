@@ -25,7 +25,7 @@ export const Project = () => {
                 <div className="bg-white text-center p-6 rounded-md">
 
                     <div className="text-center">
-                        <h2 class="mt-2 text-3xl leading-8 font-medium tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-cyan-400 sm:text-4xl">Proyecto Educativo</h2>
+                        <h2 class="mt-2 text-3xl leading-8 font-medium tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-cyan-400 sm:text-4xl">Proyecto educativo</h2>
                     </div>
 
                     <div className="mt-7 text-center">

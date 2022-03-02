@@ -1,3 +1,6 @@
+import { Link } from "remix";
+
+
 export const Navbar = () => {
     return (
         <nav class="bg-white">
@@ -25,15 +28,15 @@ export const Navbar = () => {
                         </div>
                         <div class="hidden sm:block sm:ml-auto">
                             <div class="flex space-x-4">
-                                <a href="#" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+                                <Link to="/" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Inicio</Link>
 
-                                <a href="#" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Nosotros</a>
+                                <Link to="/nosotros" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Nosotros</Link>
 
-                                <a href="#" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Admisiones</a>
+                                <Link to="/admisiones" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Admisiones</Link>
 
-                                <a href="#" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Contacto</a>
+                                <Link to="/contacto" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Contacto</Link>
 
-                                <a href="#" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Pagos</a>
+                                <Link to="/" class="text-gray-300 hover:text-cyan-400 px-3 py-2 rounded-md text-sm font-medium">Pagos</Link>
                             </div>
                         </div>
                     </div>
